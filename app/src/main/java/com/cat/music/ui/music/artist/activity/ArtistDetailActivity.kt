@@ -2,19 +2,19 @@ package com.cat.music.ui.music.artist.activity
 
 import android.view.Menu
 import android.view.MenuItem
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.main.PageAdapter
-import com.cyl.musiclake.ui.music.artist.contract.ArtistDetailContract
-import com.cyl.musiclake.ui.music.artist.fragment.AlbumFragment
-import com.cyl.musiclake.ui.music.artist.fragment.ArtistInfoFragment
-import com.cyl.musiclake.ui.music.artist.fragment.ArtistSongsFragment
-import com.cyl.musiclake.ui.music.artist.presenter.ArtistDetailPresenter
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.ui.music.artist.contract.ArtistDetailContract
+import com.cat.music.ui.music.artist.fragment.AlbumFragment
+import com.cat.music.ui.music.artist.fragment.ArtistInfoFragment
+import com.cat.music.ui.music.artist.fragment.ArtistSongsFragment
+import com.cat.music.ui.music.artist.presenter.ArtistDetailPresenter
+import com.cat.music.utils.CoverLoader
 import kotlinx.android.synthetic.main.frag_artist_detail.*
 
 /**

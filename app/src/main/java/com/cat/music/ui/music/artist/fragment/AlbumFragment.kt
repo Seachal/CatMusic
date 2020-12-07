@@ -2,15 +2,15 @@ package com.cat.music.ui.music.artist.fragment
 
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Album
+import com.cat.music.bean.Music
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.local.adapter.AlbumAdapter
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.local.adapter.AlbumAdapter
 import com.cat.music.ui.music.local.contract.AlbumsContract
-import com.cyl.musiclake.ui.music.local.presenter.AlbumPresenter
+import com.cat.music.ui.music.local.presenter.AlbumPresenter
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 import java.util.*
 

@@ -7,9 +7,9 @@ import android.view.View
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.UserInfoBean
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.R
+import com.cat.music.bean.UserInfoBean
+import com.cat.music.utils.CoverLoader
 
 /**
  * Created by cyl on 2018/9/30.

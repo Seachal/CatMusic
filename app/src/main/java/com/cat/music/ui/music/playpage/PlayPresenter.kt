@@ -1,10 +1,10 @@
 package com.cat.music.ui.music.playpage
 
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.player.MusicPlayerService
 import com.cat.music.player.playback.PlayProgressListener
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.utils.CoverLoader
 import com.cat.music.utils.ImageUtils
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread

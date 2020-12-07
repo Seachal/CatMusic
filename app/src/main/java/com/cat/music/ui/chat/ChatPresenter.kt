@@ -1,13 +1,13 @@
 package com.cat.music.ui.chat
 
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicUtils
+import com.cat.music.R
+import com.cat.music.api.music.MusicUtils
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.common.Constants
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.socket.SocketManager
-import com.cyl.musiclake.utils.FormatUtil
+import com.cat.music.socket.SocketManager
+import com.cat.music.utils.FormatUtil
 import com.cat.music.utils.ToastUtils
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread

@@ -1,8 +1,8 @@
 package com.cat.music.ui.music.charts.presenter
 
-import com.cyl.musiclake.api.music.baidu.BaiduApiServiceImpl
+import com.cat.music.api.music.baidu.BaiduApiServiceImpl
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
 import com.cat.music.ui.music.charts.contract.BaiduListContract

@@ -31,7 +31,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.cat.musiclake.BuildConfig;
+import com.cat.music.BuildConfig;
 
 public class AnimationUtils {
     private static final String TAG = "AnimationUtils";

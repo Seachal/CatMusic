@@ -11,17 +11,9 @@ import android.widget.RemoteViews;
 
 import com.cat.music.common.NavigationHelper;
 import com.cat.music.player.MusicPlayerService;
-import com.cat.musiclake.BuildConfig;
-import com.cat.musiclake.common.NavigationHelper;
-import com.cat.music.player.MusicPlayerService;
-import com.cat.musiclake.BuildConfig;
-import com.cyl.musiclake.R;
-import com.cyl.musiclake.common.NavigationHelper;
+import com.cat.music.BuildConfig;
+import com.cat.music.R;
 
-import static com.cat.music.player.MusicPlayerService.ACTION_CLOSE;
-import static com.cat.music.player.MusicPlayerService.ACTION_NEXT;
-import static com.cat.music.player.MusicPlayerService.ACTION_PLAY_PAUSE;
-import static com.cat.music.player.MusicPlayerService.ACTION_PREV;
 import static com.liulishuo.filedownloader.util.DownloadServiceNotConnectedHelper.stopForeground;
 
 /**

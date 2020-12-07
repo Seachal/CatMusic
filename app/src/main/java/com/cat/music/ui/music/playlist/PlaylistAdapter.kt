@@ -3,10 +3,10 @@ package com.cat.music.ui.music.playlist
 import androidx.appcompat.app.AppCompatActivity
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.common.NavigationHelper
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.R
+import com.cat.music.bean.Playlist
+import com.cat.music.common.NavigationHelper
+import com.cat.music.utils.CoverLoader
 
 /**
  * 作者：yonglong on 2016/8/10 21:36

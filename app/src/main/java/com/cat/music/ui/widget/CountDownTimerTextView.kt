@@ -3,7 +3,7 @@ package com.cat.music.ui.widget
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.TextView
-import com.cyl.musiclake.utils.CountDownUtils
+import com.cat.music.utils.CountDownUtils
 
 /**
  * 若红楼梦空，亦初心不变

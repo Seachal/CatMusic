@@ -8,13 +8,13 @@ import com.cyl.musicapi.netease.LoginInfo
 import com.cat.music.MusicApp
 import com.cat.music.api.github.GithubApiServiceImpl
 import com.cat.music.api.github.OauthToken
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.api.playlist.PlaylistApiServiceImpl
+import com.cat.music.api.playlist.PlaylistApiServiceImpl
 import com.cat.music.common.Constants
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.ui.my.user.User
+import com.cat.music.ui.my.user.User
 import com.cat.music.ui.my.user.UserStatus
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SPUtils

@@ -1,4 +1,4 @@
-//package com.cyl.musiclake.ui.view;
+//package com.cat.music.ui.view;
 //
 //import android.annotation.TargetApi;
 //import android.content.Context;
@@ -16,8 +16,8 @@
 //import android.view.MotionEvent;
 //import android.view.View;
 //
-//import com.cyl.musiclake.R;
-//import com.cyl.musiclake.utils.LogUtil;
+//import com.cat.music.R;
+//import com.cat.music.utils.LogUtil;
 //
 //import java.util.ArrayList;
 //import java.util.List;

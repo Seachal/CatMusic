@@ -7,26 +7,26 @@ import android.view.MenuItem
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.getInputField
 import com.afollestad.materialdialogs.input.input
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.R
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Constants
 import com.cat.music.common.Extras
-import com.cyl.musiclake.data.PlayHistoryLoader
-import com.cyl.musiclake.event.PlaylistEvent
+import com.cat.music.data.PlayHistoryLoader
+import com.cat.music.event.PlaylistEvent
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseActivity
-import com.cyl.musiclake.ui.deletePlaylist
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.edit.EditSongListActivity
-import com.cyl.musiclake.ui.music.edit.PlaylistManagerUtils
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
-import com.cyl.musiclake.ui.music.search.PlaylistSearchActivity
-import com.cyl.musiclake.ui.my.BindLoginActivity
+import com.cat.music.ui.deletePlaylist
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.edit.EditSongListActivity
+import com.cat.music.ui.music.edit.PlaylistManagerUtils
+import com.cat.music.ui.music.local.adapter.SongAdapter
+import com.cat.music.ui.music.search.PlaylistSearchActivity
+import com.cat.music.ui.my.BindLoginActivity
 import com.cat.music.ui.widget.ItemDecoration
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.utils.CoverLoader
 import com.cat.music.utils.LogUtil
 import kotlinx.android.synthetic.main.frag_playlist_detail.*
 import org.greenrobot.eventbus.EventBus
@@ -126,7 +126,7 @@ class PlaylistDetailActivity : BaseActivity<PlaylistDetailPresenter>(), Playlist
     override fun initView() {
         mAdapter = SongAdapter(musicList)
         recyclerView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this)
-        recyclerView.addItemDecoration(ItemDecoration(this, com.cat.musiclake.ui.widget.ItemDecoration.VERTICAL_LIST))
+        recyclerView.addItemDecoration(ItemDecoration(this, com.cat.music.ui.widget.ItemDecoration.VERTICAL_LIST))
         recyclerView.adapter = mAdapter
         mAdapter?.bindToRecyclerView(recyclerView)
         fab.setOnClickListener { PlayManager.play(0, musicList, pid) }

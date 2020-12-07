@@ -1,10 +1,10 @@
 package com.cat.music.ui.music.artist.fragment
 
 import android.os.Bundle
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseFragment
 import com.cat.music.ui.music.artist.contract.ArtistInfoContract
-import com.cyl.musiclake.ui.music.artist.presenter.ArtistInfoPresenter
+import com.cat.music.ui.music.artist.presenter.ArtistInfoPresenter
 import kotlinx.android.synthetic.main.frag_artist_info.*
 
 /**

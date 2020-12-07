@@ -25,7 +25,7 @@ import android.widget.GridLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

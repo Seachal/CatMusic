@@ -5,11 +5,11 @@ import android.widget.CheckedTextView
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.cyl.musicapi.bean.SingerCate
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.api.music.MusicUtils.PIC_SIZE_SMALL
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.R
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.api.music.MusicUtils.PIC_SIZE_SMALL
+import com.cat.music.bean.Artist
+import com.cat.music.utils.CoverLoader
 
 /**
  * 作者：yonglong on 2016/8/10 21:36

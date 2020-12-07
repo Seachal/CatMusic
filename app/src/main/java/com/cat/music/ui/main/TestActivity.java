@@ -5,14 +5,8 @@ import android.widget.TextView;
 import com.cat.music.bean.Music;
 import com.cat.music.player.PlayManager;
 import com.cat.music.ui.base.BaseActivity;
-import com.cat.musiclake.bean.Music;
-import com.cat.music.player.PlayManager;
-import com.cat.music.ui.base.BaseActivity;
 import com.cyl.musicapi.BaseApiImpl;
-import com.cyl.musiclake.R;
-import com.cat.music.ui.base.BaseActivity;
-import com.cyl.musiclake.bean.Music;
-import com.cat.music.player.PlayManager;
+import com.cat.music.R;
 
 import butterknife.BindView;
 import butterknife.OnClick;

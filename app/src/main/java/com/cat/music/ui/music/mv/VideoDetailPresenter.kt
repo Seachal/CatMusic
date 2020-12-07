@@ -4,10 +4,10 @@ import com.cyl.musicapi.netease.MvComment
 import com.cyl.musicapi.netease.MvDetailInfo
 import com.cyl.musicapi.netease.MvInfo
 import com.cyl.musicapi.netease.SimilarMvInfo
-import com.cyl.musiclake.bean.MvInfoBean
+import com.cat.music.bean.MvInfoBean
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.bean.VideoInfoBean
+import com.cat.music.bean.VideoInfoBean
 import javax.inject.Inject
 
 /**

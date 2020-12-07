@@ -11,11 +11,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.cat.music.MusicApp.mContext
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.ui.music.charts.ChartsAdapter.Companion.ITEM_CHART
-import com.cyl.musiclake.ui.music.charts.ChartsAdapter.Companion.ITEM_TITLE
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.R
+import com.cat.music.bean.Playlist
+import com.cat.music.ui.music.charts.ChartsAdapter.Companion.ITEM_CHART
+import com.cat.music.ui.music.charts.ChartsAdapter.Companion.ITEM_TITLE
+import com.cat.music.utils.CoverLoader
 
 /**
  * 排行榜列表

@@ -3,8 +3,8 @@ package com.cat.music.ui.chat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.socket.SocketManager
+import com.cat.music.R
+import com.cat.music.socket.SocketManager
 import com.cat.music.ui.base.BaseActivity
 import kotlinx.android.synthetic.main.card_chat_detail.*
 

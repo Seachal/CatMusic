@@ -12,11 +12,11 @@ import com.afollestad.materialdialogs.WhichButton
 import com.afollestad.materialdialogs.actions.setActionButtonEnabled
 import com.afollestad.materialdialogs.input.getInputField
 import com.afollestad.materialdialogs.input.input
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.utils.CountDownUtils
+import com.cat.music.utils.CountDownUtils
 import com.cat.music.utils.ToastUtils
 import kotlinx.android.synthetic.main.activity_sleep_timer.*
 

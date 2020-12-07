@@ -11,17 +11,16 @@ import android.view.ViewAnimationUtils
 import android.view.ViewGroup
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.AnimationUtils
-import com.cat.musiclake.BuildConfig
-import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.SocketOnlineEvent
+import com.cat.music.BuildConfig
+import com.cat.music.R
+import com.cat.music.bean.SocketOnlineEvent
 import com.cat.music.common.Constants.*
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.utils.ImageUtils
 import com.cat.music.utils.ToastUtils
-import com.cyl.musiclake.utils.Tools
+import com.cat.music.utils.Tools
 import com.tencent.bugly.beta.Beta
 import kotlinx.android.synthetic.main.activity_about.*
 import kotlinx.android.synthetic.main.card_about_1.*
@@ -46,7 +45,7 @@ class AboutActivity : BaseActivity<BasePresenter<BaseContract.BaseView>>() {
     }
 
     override fun initData() {
-        tv_about_version?.text = getString(R.string.about_version, _root_ide_package_.com.cat.musiclake.BuildConfig.VERSION_NAME)
+        tv_about_version?.text = getString(R.string.about_version, BuildConfig.VERSION_NAME)
 //        realTimeUserTv?.text = MusicApp.socketManager.realUsersNum.toString()
     }
 

@@ -10,13 +10,13 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.cat.music.ui.base.BaseFragment;
 import com.cat.music.ui.base.BaseFragment;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseFragment;
-import com.cyl.musiclake.ui.music.charts.fragment.ChartsDetailFragment;
-import com.cyl.musiclake.ui.music.discover.DiscoverFragment;
-import com.cyl.musiclake.ui.music.local.fragment.FoldersFragment;
-import com.cyl.musiclake.ui.music.my.MyMusicFragment;
-import com.cyl.musiclake.ui.music.video.VideoSquareFragment;
+import com.cat.music.ui.music.charts.fragment.ChartsDetailFragment;
+import com.cat.music.ui.music.discover.DiscoverFragment;
+import com.cat.music.ui.music.local.fragment.FoldersFragment;
+import com.cat.music.ui.music.my.MyMusicFragment;
+import com.cat.music.ui.music.video.VideoSquareFragment;
 import com.google.android.material.tabs.TabLayout;
 
 import butterknife.BindView;

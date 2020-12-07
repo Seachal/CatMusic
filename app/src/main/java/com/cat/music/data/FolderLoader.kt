@@ -3,8 +3,8 @@ package com.cat.music.data
 import android.content.Context
 import android.provider.MediaStore
 import com.cat.music.MusicApp
-import com.cyl.musiclake.bean.FolderInfo
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.bean.FolderInfo
+import com.cat.music.common.NavigationHelper
 import com.cat.music.utils.LogUtil
 import io.reactivex.Observable
 import java.io.File

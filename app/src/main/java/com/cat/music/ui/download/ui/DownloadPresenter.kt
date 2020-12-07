@@ -1,10 +1,10 @@
 package com.cat.music.ui.download.ui
 
 import com.cat.music.common.Constants
-import com.cyl.musiclake.event.FileEvent
-import com.cyl.musiclake.event.PlaylistEvent
+import com.cat.music.event.FileEvent
+import com.cat.music.event.PlaylistEvent
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.ui.download.DownloadLoader
+import com.cat.music.ui.download.DownloadLoader
 import com.cat.music.utils.LogUtil
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

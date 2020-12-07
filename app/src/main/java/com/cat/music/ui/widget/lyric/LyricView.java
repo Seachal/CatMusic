@@ -1,4 +1,4 @@
-//package com.cyl.musiclake.ui.view.lyric;
+//package com.cat.music.ui.view.lyric;
 //
 //import android.animation.Animator;
 //import android.animation.AnimatorListenerAdapter;
@@ -21,7 +21,7 @@
 //import android.text.StaticLayout;
 //import android.text.TextPaint;
 //import android.util.AttributeSet;
-//import com.cyl.musiclake.utils.LogUtil;
+//import com.cat.music.utils.LogUtil;
 //import android.util.TypedValue;
 //import android.view.MotionEvent;
 //import android.view.VelocityTracker;
@@ -30,7 +30,7 @@
 //import android.view.animation.DecelerateInterpolator;
 //import android.view.animation.OvershootInterpolator;
 //
-//import com.cyl.musiclake.R;
+//import com.cat.music.R;
 //
 //import java.io.File;
 //import java.text.DecimalFormat;

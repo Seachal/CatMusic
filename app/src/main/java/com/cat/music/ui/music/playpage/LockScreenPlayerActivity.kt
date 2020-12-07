@@ -6,12 +6,12 @@ import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Bundle
 import android.view.WindowManager
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.common.TransitionAnimationUtils
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseActivity
-import com.cyl.musiclake.utils.FormatUtil
+import com.cat.music.utils.FormatUtil
 import com.cat.music.utils.SPUtils
 import kotlinx.android.synthetic.main.activity_lock_screen.*
 import java.text.SimpleDateFormat

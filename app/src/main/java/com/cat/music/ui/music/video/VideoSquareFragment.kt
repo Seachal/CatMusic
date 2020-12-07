@@ -1,11 +1,11 @@
 package com.cat.music.ui.music.video
 
 import android.os.Bundle
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.R
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.bean.CategoryInfo
+import com.cat.music.bean.CategoryInfo
 import com.cat.music.ui.base.BaseFragment
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.ui.main.MainActivity

@@ -5,8 +5,8 @@ import com.cyl.musicapi.playlist.Album
 import com.cyl.musicapi.playlist.ArtistsItem
 import com.cyl.musicapi.playlist.MusicInfo
 import com.cyl.musicapi.playlist.QualityBean
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.cat.music.utils.LogUtil
 

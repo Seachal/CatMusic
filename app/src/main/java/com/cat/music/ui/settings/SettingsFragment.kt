@@ -8,14 +8,14 @@ import androidx.preference.PreferenceFragmentCompat
 import com.afollestad.materialdialogs.MaterialDialog
 import com.cat.music.Config
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.common.Constants
-import com.cyl.musiclake.socket.SocketManager
+import com.cat.music.socket.SocketManager
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.main.MainActivity
 import com.cat.music.ui.theme.ThemeStore
 import com.cat.music.utils.*
-import com.cyl.musiclake.utils.*
+import com.cat.music.utils.*
 
 /**
  * Author   : D22434

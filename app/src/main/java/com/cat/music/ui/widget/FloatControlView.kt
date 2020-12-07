@@ -6,7 +6,7 @@ import android.view.WindowManager
 import android.widget.FrameLayout
 import com.cat.music.Config
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
+import com.cat.music.R
 import kotlinx.android.synthetic.main.float_control_view.view.*
 
 

@@ -3,18 +3,18 @@ package com.cat.music.ui.music.search.fragment
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.chad.library.adapter.base.BaseQuickAdapter
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.HotSearchBean
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.SearchHistoryBean
+import com.cat.music.R
+import com.cat.music.bean.HotSearchBean
+import com.cat.music.bean.Music
+import com.cat.music.bean.SearchHistoryBean
 import com.cat.music.common.Constants
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseLazyFragment
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
-import com.cyl.musiclake.ui.music.search.SearchContract
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.local.adapter.SongAdapter
+import com.cat.music.ui.music.search.SearchContract
 import com.cat.music.ui.music.search.SearchEngine
-import com.cyl.musiclake.ui.music.search.SearchPresenter
+import com.cat.music.ui.music.search.SearchPresenter
 import com.cat.music.utils.LogUtil
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 

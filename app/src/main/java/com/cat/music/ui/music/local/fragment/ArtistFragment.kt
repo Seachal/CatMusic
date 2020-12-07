@@ -5,18 +5,18 @@ import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseLazyFragment
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.ui.music.local.adapter.ArtistAdapter
+import com.cat.music.bean.Artist
+import com.cat.music.ui.music.local.adapter.ArtistAdapter
 import com.cat.music.ui.music.local.contract.ArtistContract
-import com.cyl.musiclake.ui.music.local.presenter.ArtistPresenter
+import com.cat.music.ui.music.local.presenter.ArtistPresenter
 
 import java.util.ArrayList
 
 import butterknife.BindView
-import com.cyl.musiclake.event.FileEvent
-import com.cyl.musiclake.ui.music.my.MyMusicFragment
+import com.cat.music.event.FileEvent
+import com.cat.music.ui.music.my.MyMusicFragment
 import com.cat.music.utils.LogUtil
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 import org.greenrobot.eventbus.EventBus

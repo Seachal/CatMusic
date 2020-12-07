@@ -1,7 +1,7 @@
 package com.cat.music.player.exoplayer
 
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.player.playback.PlaybackListener
+import com.cat.music.bean.Music
+import com.cat.music.player.playback.PlaybackListener
 
 
 open class BasePlayer {

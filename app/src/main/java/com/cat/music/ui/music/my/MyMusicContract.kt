@@ -1,9 +1,9 @@
 package com.cat.music.ui.music.my
 
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.NoticeInfo
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Music
+import com.cat.music.bean.NoticeInfo
+import com.cat.music.bean.Playlist
 
 interface MyMusicContract {
 

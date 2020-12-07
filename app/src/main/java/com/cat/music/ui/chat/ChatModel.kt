@@ -1,7 +1,7 @@
 package com.cat.music.ui.chat
 
-import com.cyl.musiclake.api.playlist.PlaylistApiServiceImpl
-import com.cyl.musiclake.bean.MessageInfoBean
+import com.cat.music.api.playlist.PlaylistApiServiceImpl
+import com.cat.music.bean.MessageInfoBean
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
 import org.litepal.LitePal

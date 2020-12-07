@@ -24,7 +24,7 @@
             android:layout_height="128dp"
             android:padding="@dimen/dp_8"
             android:scaleType="centerInside"
-            android:src="@mipmap/ic_launcher_round" />
+            android:src="@mipmap/icon" />
 
         <RelativeLayout
             android:layout_width="wrap_content"

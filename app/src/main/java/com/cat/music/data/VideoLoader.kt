@@ -3,10 +3,10 @@ package com.cat.music.data
 import android.content.Context
 import android.database.Cursor
 import android.provider.MediaStore
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.data.db.DaoLitepal
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
+import com.cat.music.data.db.DaoLitepal
 import com.cat.music.common.Constants
 import org.litepal.LitePal
 

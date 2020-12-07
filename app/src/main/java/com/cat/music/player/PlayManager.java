@@ -10,9 +10,7 @@ import android.os.IBinder;
 import android.os.RemoteException;
 
 import com.cat.music.bean.Music;
-import com.cat.musiclake.bean.Music;
-import com.cat.musiclake.IMusicService;
-import com.cyl.musiclake.bean.Music;
+import com.cat.music.IMusicService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +36,7 @@ public class PlayManager {
             realActivity = (Activity) context;
         }
         try {
-            //TODO 修复Android 8.0启动service异常报错 Not allowed to start service Intent { cmp=com.cyl.musiclake/.player.MusicPlayerService }: app is in background uid UidRecord{f44b6ce u0a208 TPSL idle procs:1 seq(0,0,0)}
+            //TODO 修复Android 8.0启动service异常报错 Not allowed to start service Intent { cmp=com.cat.music/.player.MusicPlayerService }: app is in background uid UidRecord{f44b6ce u0a208 TPSL idle procs:1 seq(0,0,0)}
             final ContextWrapper contextWrapper = new ContextWrapper(realActivity);
             contextWrapper.startService(new Intent(contextWrapper, MusicPlayerService.class));
             final ServiceBinder binder = new ServiceBinder(callback,

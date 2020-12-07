@@ -2,8 +2,8 @@ package com.cat.music.ui.music.local.adapter
 
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.FolderInfo
+import com.cat.music.R
+import com.cat.music.bean.FolderInfo
 
 /**
  * Created by D22434 on 2018/1/11.

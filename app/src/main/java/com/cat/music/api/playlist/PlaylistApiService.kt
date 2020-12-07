@@ -5,8 +5,8 @@ import com.cyl.musicapi.playlist.CollectResult
 import com.cyl.musicapi.playlist.MusicInfo
 import com.cyl.musicapi.playlist.PlaylistInfo
 import com.cyl.musicapi.playlist.UserInfo
-import com.cyl.musiclake.bean.MessageInfoBean
-import com.cyl.musiclake.bean.NoticeInfo
+import com.cat.music.bean.MessageInfoBean
+import com.cat.music.bean.NoticeInfo
 import io.reactivex.Observable
 import okhttp3.ResponseBody
 import retrofit2.http.*

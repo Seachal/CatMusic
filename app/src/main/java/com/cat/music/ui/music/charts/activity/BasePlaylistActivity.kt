@@ -6,18 +6,18 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.R
+import com.cat.music.bean.Music
+import com.cat.music.bean.Playlist
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.music.charts.PlaylistContract
-import com.cyl.musiclake.ui.music.charts.PlaylistPresenter
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.edit.EditSongListActivity
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
-import com.cyl.musiclake.ui.music.search.PlaylistSearchActivity
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.ui.music.charts.PlaylistPresenter
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.edit.EditSongListActivity
+import com.cat.music.ui.music.local.adapter.SongAdapter
+import com.cat.music.ui.music.search.PlaylistSearchActivity
+import com.cat.music.utils.CoverLoader
 import kotlinx.android.synthetic.main.activity_chart_playlist.*
 import org.jetbrains.anko.startActivity
 

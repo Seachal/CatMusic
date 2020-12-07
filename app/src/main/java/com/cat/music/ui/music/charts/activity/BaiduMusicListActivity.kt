@@ -1,7 +1,7 @@
 package com.cat.music.ui.music.charts.activity
 
 import android.os.Bundle
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Extras
 import kotlinx.android.synthetic.main.activity_chart_playlist.*
 

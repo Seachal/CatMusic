@@ -33,25 +33,11 @@ import com.cat.music.player.PlayManager;
 import com.cat.music.utils.AnimationUtils;
 import com.cat.music.utils.LogUtil;
 import com.cat.music.utils.StatusBarUtil;
-import com.cat.musiclake.IMusicService;
-import com.cat.music.MusicApp;
-import com.cat.music.di.module.ActivityModule;
-import com.cat.musiclake.event.MetaChangedEvent;
-import com.cat.music.player.PlayManager;
-import com.cat.music.utils.AnimationUtils;
-import com.cat.music.utils.LogUtil;
-import com.cat.music.utils.StatusBarUtil;
-import com.cat.musiclake.IMusicService;
-import com.cat.music.MusicApp;
-import com.cyl.musiclake.R;
+import com.cat.music.IMusicService;
+import com.cat.music.R;
 import com.cat.music.di.component.ActivityComponent;
-import com.cat.musiclake.di.component.DaggerActivityComponent;
-import com.cat.music.di.module.ActivityModule;
-import com.cyl.musiclake.event.MetaChangedEvent;
-import com.cat.music.player.PlayManager;
+import com.cat.music.di.component.DaggerActivityComponent;
 import com.cat.music.ui.theme.ThemeStore;
-import com.cat.music.utils.LogUtil;
-import com.cat.music.utils.StatusBarUtil;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
@@ -69,7 +55,6 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import io.reactivex.disposables.Disposable;
 
-import static com.cat.music.player.PlayManager.mService;
 import static com.cat.music.utils.AnimationUtils.animateView;
 
 /**

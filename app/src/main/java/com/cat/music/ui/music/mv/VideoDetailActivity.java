@@ -1,4 +1,4 @@
-//package com.cyl.musiclake.ui.music.mv;
+//package com.cat.music.ui.music.mv;
 //
 //import android.content.Intent;
 //import android.content.pm.ActivityInfo;
@@ -19,16 +19,16 @@
 //import com.cyl.musicapi.netease.CommentsItemInfo;
 //import com.cyl.musicapi.netease.MvInfoDetail;
 //import com.cyl.musicapi.netease.MvInfoDetailInfo;
-//import com.cyl.musiclake.R;
-//import com.cyl.musiclake.bean.Artist;
-//import com.cyl.musiclake.bean.MvInfoBean;
-//import com.cyl.musiclake.common.Constants;
-//import com.cyl.musiclake.common.Extras;
-//import com.cyl.musiclake.common.NavigationHelper;
-//import com.cyl.musiclake.player.exoplayer.ExoPlayerManager;
-//import com.cyl.musiclake.ui.base.BaseActivity;
-//import com.cyl.musiclake.utils.DisplayUtils;
-//import com.cyl.musiclake.utils.LogUtil;
+//import com.cat.music.R;
+//import com.cat.music.bean.Artist;
+//import com.cat.music.bean.MvInfoBean;
+//import com.cat.music.common.Constants;
+//import com.cat.music.common.Extras;
+//import com.cat.music.common.NavigationHelper;
+//import com.cat.music.player.exoplayer.ExoPlayerManager;
+//import com.cat.music.ui.base.BaseActivity;
+//import com.cat.music.utils.DisplayUtils;
+//import com.cat.music.utils.LogUtil;
 //import com.google.android.exoplayer2.ui.PlayerView;
 //
 //import java.util.ArrayList;

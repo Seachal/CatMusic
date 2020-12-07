@@ -3,12 +3,6 @@ package com.cat.music.ui.music.playqueue;
 import com.cat.music.bean.Music;
 import com.cat.music.player.PlayManager;
 import com.cat.music.ui.base.BasePresenter;
-import com.cat.musiclake.bean.Music;
-import com.cat.music.player.PlayManager;
-import com.cat.music.ui.base.BasePresenter;
-import com.cat.music.ui.base.BasePresenter;
-import com.cyl.musiclake.bean.Music;
-import com.cat.music.player.PlayManager;
 
 import java.util.List;
 

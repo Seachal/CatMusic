@@ -5,11 +5,11 @@ import android.view.View
 import android.widget.CheckBox
 import com.chad.library.adapter.base.BaseItemDraggableAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.utils.CoverLoader
 
 /**
  * 作者：yonglong

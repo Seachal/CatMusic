@@ -2,8 +2,8 @@ package com.cat.music.api.music
 
 
 import com.cyl.musicapi.bean.SongComment
-import com.cyl.musiclake.api.music.baidu.BaiduApiServiceImpl
-import com.cyl.musiclake.bean.Music
+import com.cat.music.api.music.baidu.BaiduApiServiceImpl
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack

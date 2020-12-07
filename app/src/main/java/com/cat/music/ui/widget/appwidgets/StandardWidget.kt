@@ -6,11 +6,11 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.RemoteViews
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.common.Extras
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.common.NavigationHelper
 import com.cat.music.player.MusicPlayerService
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.utils.CoverLoader
 import com.cat.music.utils.LogUtil
 
 

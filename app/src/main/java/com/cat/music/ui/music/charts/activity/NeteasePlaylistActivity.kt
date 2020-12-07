@@ -2,7 +2,7 @@ package com.cat.music.ui.music.charts.activity
 
 import android.os.Bundle
 
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.utils.LogUtil

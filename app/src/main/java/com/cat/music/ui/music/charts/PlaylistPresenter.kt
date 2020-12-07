@@ -2,13 +2,13 @@ package com.cat.music.ui.music.charts
 
 import com.cyl.musicapi.BaseApiImpl
 import com.cyl.musicapi.bean.TopListBean
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.api.music.baidu.BaiduApiServiceImpl
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.api.music.baidu.BaiduApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Music
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Constants
 import com.cat.music.ui.base.BasePresenter
 import javax.inject.Inject

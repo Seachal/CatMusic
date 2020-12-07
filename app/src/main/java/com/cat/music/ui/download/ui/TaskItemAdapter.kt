@@ -11,9 +11,9 @@ import android.widget.TextView
 
 import com.cat.music.MusicApp
 import com.cat.music.MusicApp.mContext
-import com.cyl.musiclake.R
-import com.cyl.musiclake.ui.download.TasksManager
-import com.cyl.musiclake.ui.download.TasksManagerModel
+import com.cat.music.R
+import com.cat.music.ui.download.TasksManager
+import com.cat.music.ui.download.TasksManagerModel
 import com.cat.music.utils.LogUtil
 import com.liulishuo.filedownloader.BaseDownloadTask
 import com.liulishuo.filedownloader.FileDownloader

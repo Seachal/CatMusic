@@ -1,8 +1,8 @@
 package com.cat.music.ui.music.local.presenter
 
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.data.SongLoader
-import com.cyl.musiclake.data.VideoLoader
+import com.cat.music.bean.Music
+import com.cat.music.data.SongLoader
+import com.cat.music.data.VideoLoader
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.ui.music.local.contract.FolderSongsContract
 import org.jetbrains.anko.doAsync

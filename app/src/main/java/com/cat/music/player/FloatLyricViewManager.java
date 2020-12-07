@@ -10,20 +10,16 @@ import android.view.WindowManager;
 
 import com.cat.music.bean.Music;
 import com.cat.music.utils.LogUtil;
-import com.cat.musiclake.bean.Music;
-import com.cat.music.utils.LogUtil;
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.R;
-import com.cyl.musiclake.api.music.MusicApi;
-import com.cyl.musiclake.api.music.MusicApiServiceImpl;
+import com.cat.music.R;
+import com.cat.music.api.music.MusicApi;
+import com.cat.music.api.music.MusicApiServiceImpl;
 import com.cat.music.api.net.ApiManager;
 import com.cat.music.api.net.RequestCallBack;
-import com.cyl.musiclake.bean.Music;
 import com.cat.music.ui.widget.LyricView;
-import com.cyl.musiclake.ui.widget.lyric.FloatLyricView;
+import com.cat.music.ui.widget.lyric.FloatLyricView;
 import com.cat.music.ui.widget.lyric.LyricInfo;
 import com.cat.music.ui.widget.lyric.LyricParseUtils;
-import com.cat.music.utils.LogUtil;
 
 import java.util.ArrayList;
 import java.util.List;

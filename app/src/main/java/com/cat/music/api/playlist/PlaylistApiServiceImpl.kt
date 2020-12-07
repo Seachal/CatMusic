@@ -2,14 +2,14 @@ package com.cat.music.api.playlist
 
 import android.text.TextUtils
 import com.cyl.musicapi.playlist.*
-import com.cyl.musiclake.api.music.MusicApiServiceImpl
-import com.cyl.musiclake.api.music.MusicUtils
+import com.cat.music.api.music.MusicApiServiceImpl
+import com.cat.music.api.music.MusicUtils
 import com.cat.music.api.net.ApiManager
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.NoticeInfo
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Music
+import com.cat.music.bean.NoticeInfo
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Constants
-import com.cyl.musiclake.ui.my.user.User
+import com.cat.music.ui.my.user.User
 import com.cat.music.ui.my.user.UserStatus
 import com.cat.music.utils.SPUtils
 import com.google.gson.Gson

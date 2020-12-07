@@ -1,7 +1,7 @@
 package com.cat.music.socket
 
-import com.cyl.musiclake.bean.MessageInfoBean
-import com.cyl.musiclake.bean.UserInfoBean
+import com.cat.music.bean.MessageInfoBean
+import com.cat.music.bean.UserInfoBean
 
 /**
  * Des    :

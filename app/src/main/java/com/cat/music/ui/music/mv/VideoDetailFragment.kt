@@ -8,15 +8,15 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.cyl.musicapi.netease.CommentsItemInfo
 import com.cyl.musicapi.netease.MvInfoDetail
 import com.cyl.musicapi.netease.MvInfoDetailInfo
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.MvInfoBean
-import com.cyl.musiclake.bean.VideoInfoBean
+import com.cat.music.R
+import com.cat.music.bean.Artist
+import com.cat.music.bean.MvInfoBean
+import com.cat.music.bean.VideoInfoBean
 import com.cat.music.common.Constants
 import com.cat.music.common.Extras
-import com.cyl.musiclake.common.NavigationHelper.navigateToArtist
+import com.cat.music.common.NavigationHelper.navigateToArtist
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.utils.CoverLoader
 import kotlinx.android.synthetic.main.frag_mv_detail.*
 
 /**

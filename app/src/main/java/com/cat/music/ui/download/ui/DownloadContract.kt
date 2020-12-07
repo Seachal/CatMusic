@@ -2,8 +2,8 @@ package com.cat.music.ui.download.ui
 
 
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.ui.download.TasksManagerModel
+import com.cat.music.bean.Music
+import com.cat.music.ui.download.TasksManagerModel
 
 interface DownloadContract {
 

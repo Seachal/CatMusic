@@ -2,10 +2,6 @@ package com.cat.music.ui.music.playlist.history;
 
 import com.cat.music.bean.Music;
 import com.cat.music.ui.base.BaseContract;
-import com.cat.musiclake.bean.Music;
-import com.cat.music.ui.base.BaseContract;
-import com.cyl.musiclake.bean.Music;
-import com.cat.music.ui.base.BaseContract;
 
 import java.util.List;
 

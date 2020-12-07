@@ -7,7 +7,7 @@ import com.cat.music.common.Constants;
 import com.cat.music.utils.LogUtil;
 
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.common.Constants;
 
 import java.io.ByteArrayInputStream;

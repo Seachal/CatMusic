@@ -8,9 +8,9 @@
         android:shortcutLongLabel="@string/search"
         android:shortcutShortLabel="@string/search">
         <intent
-            android:action="com.cyl.musiclake.shortcut.ACTION_SEARCH"
+            android:action="com.cat.music.shortcut.ACTION_SEARCH"
             android:targetClass="com.cat.music.ui.main.WelcomeActivity"
-            android:targetPackage="com.cyl.musiclake" />
+            android:targetPackage="com.cat.music" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <shortcut
@@ -19,9 +19,9 @@
         android:shortcutLongLabel="@string/item_history"
         android:shortcutShortLabel="@string/item_history">
         <intent
-            android:action="com.cyl.musiclake.shortcut.ACTION_HISTORY"
+            android:action="com.cat.music.shortcut.ACTION_HISTORY"
             android:targetClass="com.cat.music.ui.main.WelcomeActivity"
-            android:targetPackage="com.cyl.musiclake" />
+            android:targetPackage="com.cat.music" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <shortcut
@@ -30,9 +30,9 @@
         android:shortcutLongLabel="@string/item_local"
         android:shortcutShortLabel="@string/item_local">
         <intent
-            android:action="com.cyl.musiclake.ui.main.ACTION_LOCAL"
+            android:action="com.cat.music.ui.main.ACTION_LOCAL"
             android:targetClass="com.cat.music.ui.main.WelcomeActivity"
-            android:targetPackage="com.cyl.musiclake" />
+            android:targetPackage="com.cat.music" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
 </shortcuts>

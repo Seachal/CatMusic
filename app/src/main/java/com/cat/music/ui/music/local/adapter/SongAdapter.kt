@@ -9,11 +9,11 @@ import androidx.core.content.ContextCompat
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicApi
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.api.music.MusicApi
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
-import com.cyl.musiclake.event.MetaChangedEvent
+import com.cat.music.event.MetaChangedEvent
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.theme.ThemeStore
 import com.cat.music.ui.widget.fastscroll.FastScrollRecyclerView
@@ -21,7 +21,7 @@ import com.cat.music.utils.ConvertUtils
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SizeUtils
 import com.cat.music.utils.ToastUtils
-import com.cyl.musiclake.utils.*
+import com.cat.music.utils.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode

@@ -3,12 +3,6 @@ package com.cat.music.ui.music.playlist.love;
 import com.cat.music.bean.Music;
 import com.cat.music.data.SongLoader;
 import com.cat.music.ui.base.BasePresenter;
-import com.cat.musiclake.bean.Music;
-import com.cat.musiclake.data.SongLoader;
-import com.cat.music.ui.base.BasePresenter;
-import com.cat.music.ui.base.BasePresenter;
-import com.cyl.musiclake.data.SongLoader;
-import com.cyl.musiclake.bean.Music;
 
 import java.util.List;
 

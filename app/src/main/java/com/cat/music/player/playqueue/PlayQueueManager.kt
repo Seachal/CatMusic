@@ -1,8 +1,8 @@
 package com.cat.music.player.playqueue
 
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.event.PlayModeEvent
+import com.cat.music.R
+import com.cat.music.event.PlayModeEvent
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SPUtils
 import org.greenrobot.eventbus.EventBus

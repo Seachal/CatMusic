@@ -4,8 +4,8 @@ import android.app.Dialog
 import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 import com.afollestad.materialdialogs.MaterialDialog
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 
 /**

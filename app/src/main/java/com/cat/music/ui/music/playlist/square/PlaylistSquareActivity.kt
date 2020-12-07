@@ -2,12 +2,12 @@ package com.cat.music.ui.music.playlist.square
 
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.ui.main.PageAdapter
-import com.cyl.musiclake.ui.music.playlist.PlaylistFragment
+import com.cat.music.ui.music.playlist.PlaylistFragment
 import com.cat.music.utils.LogUtil
 import kotlinx.android.synthetic.main.activity_all_playlist.*
 

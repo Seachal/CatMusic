@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.cat.music.ui.base.BaseFragment;
 import com.cat.music.ui.base.BaseFragment;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseFragment;
 
 import butterknife.BindView;

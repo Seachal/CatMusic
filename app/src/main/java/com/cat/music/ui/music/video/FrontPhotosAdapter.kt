@@ -1,11 +1,11 @@
-//package com.cyl.musiclake.ui.music.video
+//package com.cat.music.ui.music.video
 //
 //import android.view.LayoutInflater
 //import android.view.View
 //import android.view.ViewGroup
 //import androidx.recyclerview.widget.RecyclerView
 //import com.bumptech.glide.Glide
-//import com.cyl.musiclake.R
+//import com.cat.music.R
 //
 //class FrontPhotosAdapter : RecyclerView.Adapter<YouTubeDemoViewHolder>() {
 //

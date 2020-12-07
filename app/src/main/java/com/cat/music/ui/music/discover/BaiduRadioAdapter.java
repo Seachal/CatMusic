@@ -1,12 +1,10 @@
 package com.cat.music.ui.music.discover;
 
 import com.cat.music.utils.CoverLoader;
-import com.cat.musiclake.utils.CoverLoader;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.cyl.musiclake.R;
-import com.cyl.musiclake.bean.Playlist;
-import com.cyl.musiclake.utils.CoverLoader;
+import com.cat.music.R;
+import com.cat.music.bean.Playlist;
 
 import java.util.List;
 

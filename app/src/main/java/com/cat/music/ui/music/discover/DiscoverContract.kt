@@ -2,9 +2,9 @@ package com.cat.music.ui.music.discover
 
 import com.cyl.musicapi.netease.BannerBean
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Playlist
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
 
 
 interface DiscoverContract {

@@ -11,7 +11,7 @@ import android.preference.PreferenceManager;
 import com.cat.music.utils.LogUtil;
 import com.cat.music.utils.LogUtil;
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.bean.Music;
+import com.cat.music.bean.Music;
 import com.cat.music.utils.LogUtil;
 import com.danikula.videocache.HttpProxyCacheServer;
 

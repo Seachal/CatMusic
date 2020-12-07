@@ -11,9 +11,7 @@ import android.provider.Settings;
 import androidx.annotation.RequiresApi;
 
 import com.cat.music.utils.rom.FloatUtil;
-import com.cat.musiclake.utils.rom.FloatUtil;
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.utils.rom.FloatUtil;
 
 import java.util.List;
 

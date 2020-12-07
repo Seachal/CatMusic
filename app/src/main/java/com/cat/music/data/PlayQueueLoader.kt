@@ -1,8 +1,8 @@
 package com.cat.music.data
 
 import com.cat.music.common.Constants
-import com.cyl.musiclake.data.db.DaoLitepal
-import com.cyl.musiclake.bean.Music
+import com.cat.music.data.db.DaoLitepal
+import com.cat.music.bean.Music
 import org.jetbrains.anko.doAsync
 
 /**

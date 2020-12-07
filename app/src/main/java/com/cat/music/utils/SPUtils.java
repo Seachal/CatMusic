@@ -6,7 +6,7 @@ import android.preference.PreferenceManager;
 import androidx.annotation.Nullable;
 
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 
 import java.util.Set;
 

@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.cyl.musiclake.R
-import com.cyl.musiclake.ui.music.mv.VideoListAdapter
+import com.cat.music.R
+import com.cat.music.ui.music.mv.VideoListAdapter
 
 class YouTubeDemoActivity : AppCompatActivity() {
 

@@ -1,8 +1,8 @@
 // IMusicService.aidl
-package com.cyl.musiclake;
+package com.cat.music;
 
 // Declare any non-default types here with import statements
-import com.cyl.musiclake.bean.Music;
+import com.cat.music.bean.Music;
 
 interface IMusicService {
     void nextPlay(in Music music);

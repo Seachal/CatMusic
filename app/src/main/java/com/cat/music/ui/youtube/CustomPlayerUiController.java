@@ -12,11 +12,7 @@ import androidx.core.content.ContextCompat;
 
 import com.cat.music.utils.FormatUtil;
 import com.cat.music.utils.LogUtil;
-import com.cat.musiclake.utils.FormatUtil;
-import com.cat.music.utils.LogUtil;
-import com.cyl.musiclake.R;
-import com.cyl.musiclake.utils.FormatUtil;
-import com.cat.music.utils.LogUtil;
+import com.cat.music.R;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.PlayerConstants;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
@@ -26,7 +22,7 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTube
 
 /**
  * 作者：yonglong
- * 包名：com.cyl.musiclake.ui.youtube
+ * 包名：com.cat.music.ui.youtube
  * 时间：2019/7/15 11:45
  * 描述：
  */

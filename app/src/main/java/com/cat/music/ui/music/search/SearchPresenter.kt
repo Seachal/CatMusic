@@ -2,16 +2,16 @@ package com.cat.music.ui.music.search
 
 import com.cyl.musicapi.netease.SearchInfo
 import com.cat.music.MusicApp
-import com.cyl.musiclake.api.music.MusicApiServiceImpl
-import com.cyl.musiclake.api.music.baidu.BaiduApiServiceImpl
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.api.music.MusicApiServiceImpl
+import com.cat.music.api.music.baidu.BaiduApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.api.youtube.YoutubeDataApi
-import com.cyl.musiclake.bean.HotSearchBean
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.SearchResult
-import com.cyl.musiclake.data.db.DaoLitepal
+import com.cat.music.api.youtube.YoutubeDataApi
+import com.cat.music.bean.HotSearchBean
+import com.cat.music.bean.Music
+import com.cat.music.bean.SearchResult
+import com.cat.music.data.db.DaoLitepal
 import com.cat.music.common.Constants
 import com.cat.music.ui.base.BasePresenter
 import com.cat.music.utils.LogUtil

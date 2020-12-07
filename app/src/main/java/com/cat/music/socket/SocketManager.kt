@@ -2,11 +2,11 @@ package com.cat.music.socket
 
 import com.cat.music.Config
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.playlist.PlaylistApiServiceImpl
-import com.cyl.musiclake.bean.MessageInfoBean
-import com.cyl.musiclake.bean.SocketOnlineEvent
-import com.cyl.musiclake.bean.UserInfoBean
+import com.cat.music.R
+import com.cat.music.api.playlist.PlaylistApiServiceImpl
+import com.cat.music.bean.MessageInfoBean
+import com.cat.music.bean.SocketOnlineEvent
+import com.cat.music.bean.UserInfoBean
 import com.cat.music.common.Constants
 import com.cat.music.ui.my.user.UserStatus
 import com.cat.music.utils.LogUtil

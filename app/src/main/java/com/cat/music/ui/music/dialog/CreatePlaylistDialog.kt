@@ -6,8 +6,8 @@ import android.text.InputType
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.input.getInputField
 import com.afollestad.materialdialogs.input.input
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.utils.LogUtil
 
 /**

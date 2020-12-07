@@ -60,7 +60,7 @@
 
         <fragment
             android:id="@+id/bottomControlFg"
-            android:name="com.cyl.musiclake.ui.music.bottom.PlayControlFragment"
+            android:name="com.cat.music.ui.music.bottom.PlayControlFragment"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_gravity="bottom" />

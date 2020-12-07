@@ -3,9 +3,9 @@ package com.cat.music.ui.download
 import android.text.TextUtils
 import android.util.SparseArray
 import com.cat.music.MusicApp
-import com.cyl.musiclake.common.NavigationHelper
-import com.cyl.musiclake.ui.download.ui.DownloadManagerFragment
-import com.cyl.musiclake.ui.download.ui.TaskItemAdapter
+import com.cat.music.common.NavigationHelper
+import com.cat.music.ui.download.ui.DownloadManagerFragment
+import com.cat.music.ui.download.ui.TaskItemAdapter
 import com.cat.music.utils.FileUtils
 import com.liulishuo.filedownloader.BaseDownloadTask
 import com.liulishuo.filedownloader.FileDownloadConnectListener

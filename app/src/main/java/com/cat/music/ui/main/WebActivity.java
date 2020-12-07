@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import com.cat.music.ui.base.BaseActivity;
 import com.cat.music.ui.base.BaseActivity;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseActivity;
 import com.just.agentweb.AgentWeb;
 

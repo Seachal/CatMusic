@@ -1,9 +1,9 @@
 package com.cat.music.ui.music.playlist.detail
 
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
+import com.cat.music.bean.Playlist
 import com.cat.music.ui.base.BaseContract
 
 interface PlaylistDetailContract {

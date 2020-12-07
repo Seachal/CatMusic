@@ -1,9 +1,9 @@
 package com.cat.music.ui.music.local.presenter
 
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.bean.FolderInfo
-import com.cyl.musiclake.data.AppRepository
-import com.cyl.musiclake.data.SongLoader
+import com.cat.music.bean.FolderInfo
+import com.cat.music.data.AppRepository
+import com.cat.music.data.SongLoader
 import com.cat.music.ui.music.local.contract.FoldersContract
 import io.reactivex.Observer
 import io.reactivex.android.schedulers.AndroidSchedulers

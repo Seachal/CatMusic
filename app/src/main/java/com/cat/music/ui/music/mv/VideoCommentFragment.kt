@@ -5,9 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.cyl.musicapi.netease.CommentsItemInfo
 import com.cyl.musicapi.netease.MvInfoDetail
 import com.cyl.musicapi.netease.MvInfoDetailInfo
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.MvInfoBean
-import com.cyl.musiclake.bean.VideoInfoBean
+import com.cat.music.R
+import com.cat.music.bean.MvInfoBean
+import com.cat.music.bean.VideoInfoBean
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseLazyFragment
 import kotlinx.android.synthetic.main.frag_mv_list.recyclerView

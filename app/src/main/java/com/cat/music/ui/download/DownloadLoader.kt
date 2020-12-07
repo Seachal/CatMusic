@@ -2,11 +2,11 @@ package com.cat.music.ui.download
 
 import android.text.TextUtils
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.data.db.DaoLitepal
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.data.db.DaoLitepal
+import com.cat.music.bean.Music
 import com.cat.music.utils.LogUtil
-import com.cyl.musiclake.utils.Mp3Util
+import com.cat.music.utils.Mp3Util
 import com.cat.music.utils.ToastUtils
 import com.liulishuo.filedownloader.util.FileDownloadUtils
 import org.litepal.LitePal

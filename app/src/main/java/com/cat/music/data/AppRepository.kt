@@ -1,8 +1,8 @@
 package com.cat.music.data
 
 import android.content.Context
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.FolderInfo
+import com.cat.music.bean.Music
+import com.cat.music.bean.FolderInfo
 import io.reactivex.Observable
 
 /**

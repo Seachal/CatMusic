@@ -17,7 +17,7 @@ import androidx.annotation.Nullable;
 
 import com.cat.music.utils.SizeUtils;
 import com.cat.music.utils.SizeUtils;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.utils.SizeUtils;
 
 /**

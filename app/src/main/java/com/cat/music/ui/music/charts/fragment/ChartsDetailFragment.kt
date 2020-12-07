@@ -3,17 +3,17 @@ package com.cat.music.ui.music.charts.fragment
 import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.R
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Constants
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseLazyFragment
-import com.cyl.musiclake.ui.music.charts.ChartsAdapter
-import com.cyl.musiclake.ui.music.charts.GroupItemData
-import com.cyl.musiclake.ui.music.charts.activity.BaiduMusicListActivity
-import com.cyl.musiclake.ui.music.charts.activity.NeteasePlaylistActivity
+import com.cat.music.ui.music.charts.ChartsAdapter
+import com.cat.music.ui.music.charts.GroupItemData
+import com.cat.music.ui.music.charts.activity.BaiduMusicListActivity
+import com.cat.music.ui.music.charts.activity.NeteasePlaylistActivity
 import com.cat.music.ui.music.charts.contract.OnlinePlaylistContract
-import com.cyl.musiclake.ui.music.charts.presenter.OnlinePlaylistPresenter
+import com.cat.music.ui.music.charts.presenter.OnlinePlaylistPresenter
 import kotlinx.android.synthetic.main.fragment_charts.*
 
 /**

@@ -1,9 +1,9 @@
-//package com.cyl.musiclake.ui.music.online.presenter;
+//package com.cat.music.ui.music.online.presenter;
 //
-//import com.cyl.musiclake.ui.base.BasePresenter;
+//import com.cat.music.ui.base.BasePresenter;
 //
-//import com.cyl.musiclake.api.music.netease.NeteaseMusic;
-//import com.cyl.musiclake.ui.music.online.contract.NeteaseListContract;
+//import com.cat.music.api.music.netease.NeteaseMusic;
+//import com.cat.music.ui.music.online.contract.NeteaseListContract;
 //
 //import javax.inject.Inject;
 //

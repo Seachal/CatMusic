@@ -3,11 +3,11 @@ package com.cat.music.ui.download.ui
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.ui.download.TasksManager
-import com.cyl.musiclake.ui.download.TasksManagerModel
+import com.cat.music.bean.Music
+import com.cat.music.ui.download.TasksManager
+import com.cat.music.ui.download.TasksManagerModel
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 import java.lang.ref.WeakReference
 

@@ -2,7 +2,6 @@ package com.cat.music.bean
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.cyl.musicapi.playlist.QualityBean
 import org.litepal.crud.LitePalSupport
 
 /**

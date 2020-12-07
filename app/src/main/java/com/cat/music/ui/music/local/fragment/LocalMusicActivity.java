@@ -5,11 +5,7 @@ import android.content.Intent;
 
 import com.cat.music.common.NavigationHelper;
 import com.cat.music.ui.base.BaseActivity;
-import com.cat.musiclake.common.NavigationHelper;
-import com.cat.music.ui.base.BaseActivity;
-import com.cyl.musiclake.R;
-import com.cat.music.ui.base.BaseActivity;
-import com.cyl.musiclake.common.NavigationHelper;
+import com.cat.music.R;
 
 /**
  * Created by Monkey on 2015/6/29.

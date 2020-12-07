@@ -10,19 +10,19 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 import com.chad.library.adapter.base.BaseQuickAdapter
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
-import com.cyl.musiclake.ui.download.TasksManagerModel
+import com.cat.music.ui.download.TasksManagerModel
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.local.adapter.SongAdapter
 
 import java.util.ArrayList
 
 import butterknife.BindView
-import com.cyl.musiclake.event.PlaylistEvent
+import com.cat.music.event.PlaylistEvent
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 import org.greenrobot.eventbus.EventBus
 

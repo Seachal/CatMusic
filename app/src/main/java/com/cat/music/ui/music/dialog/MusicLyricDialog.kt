@@ -15,8 +15,8 @@ import android.widget.SeekBar
 import android.widget.TextView
 import com.cyl.musicapi.kugou.Candidates
 import com.cyl.musicapi.kugou.KugouLyric
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.kugou.KuGouApiServiceImpl
+import com.cat.music.R
+import com.cat.music.api.music.kugou.KuGouApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
 import com.cat.music.player.FloatLyricViewManager

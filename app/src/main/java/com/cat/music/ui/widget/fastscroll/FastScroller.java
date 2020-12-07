@@ -37,7 +37,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 
 import java.lang.annotation.Retention;
 

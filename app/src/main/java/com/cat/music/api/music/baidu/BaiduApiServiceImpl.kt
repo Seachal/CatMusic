@@ -1,13 +1,13 @@
 package com.cat.music.api.music.baidu
 
 import com.cyl.musicapi.baidu.BaiduApiService
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.api.music.MusicUtils.PIC_SIZE_BIG
-import com.cyl.musiclake.api.music.MusicUtils.PIC_SIZE_NORMAL
-import com.cyl.musiclake.api.music.MusicUtils.PIC_SIZE_SMALL
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.api.music.MusicUtils.PIC_SIZE_BIG
+import com.cat.music.api.music.MusicUtils.PIC_SIZE_NORMAL
+import com.cat.music.api.music.MusicUtils.PIC_SIZE_SMALL
 import com.cat.music.api.net.ApiManager
-import com.cyl.musiclake.bean.*
-import com.cyl.musiclake.data.SongLoader
+import com.cat.music.bean.*
+import com.cat.music.data.SongLoader
 import com.cat.music.common.Constants
 import com.cat.music.utils.FileUtils
 import com.cat.music.utils.LogUtil

@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseActivity;
 import com.cat.music.utils.SystemUtils;
 import com.cat.music.utils.ToastUtils;

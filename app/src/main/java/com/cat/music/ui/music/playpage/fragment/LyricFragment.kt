@@ -1,6 +1,6 @@
 package com.cat.music.ui.music.playpage.fragment
 
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.player.FloatLyricViewManager
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseContract

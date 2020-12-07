@@ -1,6 +1,6 @@
 package com.cat.music.event
 
-import com.cyl.musiclake.ui.my.user.User
+import com.cat.music.ui.my.user.User
 
 
 /**

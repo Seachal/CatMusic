@@ -19,7 +19,7 @@ import com.cat.music.utils.SPUtils;
 import com.cat.music.utils.SystemUtils;
 import com.cyl.musicapi.BaseApiImpl;
 import com.cat.music.MusicApp;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.common.Constants;
 import com.cat.music.ui.base.BaseActivity;
 import com.cat.music.utils.SPUtils;

@@ -8,9 +8,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
 import com.cat.music.bean.Music;
-import com.cat.musiclake.bean.Music;
-import com.cyl.musiclake.R;
-import com.cyl.musiclake.bean.Music;
+import com.cat.music.R;
 
 /**
  * 作者：yonglong on 2016/9/14 15:24

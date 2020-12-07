@@ -16,7 +16,7 @@ import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseFragment;
 import com.cat.music.ui.base.BasePresenter;
 import com.cat.music.ui.main.PageAdapter;

@@ -3,12 +3,12 @@ package com.cat.music.ui.music.discover.artist
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Pair
 import com.cyl.musicapi.bean.SingerTag
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.R
+import com.cat.music.bean.Artist
+import com.cat.music.common.NavigationHelper
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.ui.music.discover.ArtistCateAdapter
-import com.cyl.musiclake.ui.music.discover.ArtistListAdapter
+import com.cat.music.ui.music.discover.ArtistCateAdapter
+import com.cat.music.ui.music.discover.ArtistListAdapter
 import com.cat.music.utils.LogUtil
 import kotlinx.android.synthetic.main.frag_artist_list.*
 

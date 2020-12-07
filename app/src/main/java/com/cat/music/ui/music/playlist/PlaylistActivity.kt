@@ -1,6 +1,6 @@
 package com.cat.music.ui.music.playlist
 
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter

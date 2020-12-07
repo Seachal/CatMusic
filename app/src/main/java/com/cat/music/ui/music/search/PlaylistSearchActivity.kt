@@ -9,16 +9,16 @@ import android.view.View
 import android.view.animation.DecelerateInterpolator
 import android.view.inputmethod.EditorInfo
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
-import com.cyl.musiclake.utils.Tools
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.local.adapter.SongAdapter
+import com.cat.music.utils.Tools
 import kotlinx.android.synthetic.main.activity_playlist_search.*
 import kotlinx.android.synthetic.main.toolbar_search_layout.*
 

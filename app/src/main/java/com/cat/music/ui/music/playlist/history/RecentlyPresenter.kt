@@ -1,8 +1,8 @@
 package com.cat.music.ui.music.playlist.history
 
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.data.AppRepository
+import com.cat.music.bean.Music
+import com.cat.music.data.AppRepository
 
 import javax.inject.Inject
 

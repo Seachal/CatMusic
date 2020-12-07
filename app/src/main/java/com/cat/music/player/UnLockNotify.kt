@@ -10,11 +10,11 @@ import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
+import com.cat.music.R
 
 /**
  * 作者：yonglong
- * 包名：com.cyl.musiclake.player
+ * 包名：com.cat.music.player
  * 时间：2019/5/7 23:49
  * 描述：
  */

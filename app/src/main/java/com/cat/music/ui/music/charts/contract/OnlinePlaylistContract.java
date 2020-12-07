@@ -4,8 +4,8 @@ package com.cat.music.ui.music.charts.contract;
 import com.cat.music.ui.base.BaseContract;
 import com.cat.music.ui.base.BaseContract;
 import com.cat.music.ui.base.BaseContract;
-import com.cyl.musiclake.bean.Playlist;
-import com.cyl.musiclake.ui.music.charts.GroupItemData;
+import com.cat.music.bean.Playlist;
+import com.cat.music.ui.music.charts.GroupItemData;
 
 import java.util.List;
 

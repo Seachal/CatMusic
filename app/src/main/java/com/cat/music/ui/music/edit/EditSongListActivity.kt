@@ -4,12 +4,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.cat.music.ui.base.BaseActivity
-import com.cyl.musiclake.ui.deleteLocalMusic
-import com.cyl.musiclake.ui.downloadBatchMusic
+import com.cat.music.ui.deleteLocalMusic
+import com.cat.music.ui.downloadBatchMusic
 import kotlinx.android.synthetic.main.activity_song_edit.*
 
 /**

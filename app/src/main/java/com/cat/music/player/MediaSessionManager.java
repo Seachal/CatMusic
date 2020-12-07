@@ -12,12 +12,6 @@ import android.support.v4.media.session.PlaybackStateCompat;
 import com.cat.music.bean.Music;
 import com.cat.music.utils.CoverLoader;
 import com.cat.music.utils.LogUtil;
-import com.cat.musiclake.bean.Music;
-import com.cat.musiclake.utils.CoverLoader;
-import com.cat.music.utils.LogUtil;
-import com.cyl.musiclake.bean.Music;
-import com.cyl.musiclake.utils.CoverLoader;
-import com.cat.music.utils.LogUtil;
 
 /**
  * MediaSession管理类

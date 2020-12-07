@@ -1,7 +1,7 @@
 package com.cat.music.ui.chat
 
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.MessageInfoBean
+import com.cat.music.bean.MessageInfoBean
 
 
 interface ChatContract {

@@ -1,6 +1,6 @@
 package com.cat.music.api.youtube
 
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.google.api.client.http.HttpRequestInitializer
 import com.google.api.client.http.javanet.NetHttpTransport

@@ -4,7 +4,7 @@ import android.content.pm.ActivityInfo
 import android.view.View
 import android.view.ViewGroup
 import com.cyl.musicapi.netease.MvInfoDetailInfo
-import com.cyl.musiclake.bean.VideoInfoBean
+import com.cat.music.bean.VideoInfoBean
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.utils.DisplayUtils

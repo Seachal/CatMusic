@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 
 /**
  * 作者：yonglong on 2016/8/25 20:27

@@ -11,11 +11,11 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.afollestad.materialdialogs.MaterialDialog
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.player.playqueue.PlayQueueManager
-import com.cyl.musiclake.ui.UIUtils
+import com.cat.music.player.playqueue.PlayQueueManager
+import com.cat.music.ui.UIUtils
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.trello.rxlifecycle2.LifecycleTransformer

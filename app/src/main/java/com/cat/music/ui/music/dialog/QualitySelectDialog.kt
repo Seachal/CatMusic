@@ -16,10 +16,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.ui.downloadMusic
+import com.cat.music.ui.downloadMusic
 
 /**
  * 音质选择器

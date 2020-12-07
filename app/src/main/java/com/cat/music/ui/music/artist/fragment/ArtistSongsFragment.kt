@@ -2,15 +2,15 @@ package com.cat.music.ui.music.artist.fragment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.ui.music.artist.contract.ArtistSongContract
-import com.cyl.musiclake.ui.music.artist.presenter.ArtistSongsPresenter
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
-import com.cyl.musiclake.ui.music.edit.EditSongListActivity
-import com.cyl.musiclake.ui.music.local.adapter.SongAdapter
+import com.cat.music.ui.music.artist.contract.ArtistSongContract
+import com.cat.music.ui.music.artist.presenter.ArtistSongsPresenter
+import com.cat.music.ui.music.dialog.BottomDialogFragment
+import com.cat.music.ui.music.edit.EditSongListActivity
+import com.cat.music.ui.music.local.adapter.SongAdapter
 import kotlinx.android.synthetic.main.frag_artist_songs.*
 import org.jetbrains.anko.support.v4.startActivity
 import java.util.*

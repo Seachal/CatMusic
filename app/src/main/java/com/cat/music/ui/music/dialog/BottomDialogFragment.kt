@@ -12,24 +12,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.list.listItems
-import com.cat.musiclake.BuildConfig
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
-import com.cyl.musiclake.bean.Music
+import com.cat.music.BuildConfig
+import com.cat.music.R
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
+import com.cat.music.bean.Music
 import com.cat.music.common.Constants
 import com.cat.music.common.Extras
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.common.NavigationHelper
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.ui.deleteSingleMusic
-import com.cyl.musiclake.ui.music.edit.EditMusicActivity
-import com.cyl.musiclake.ui.music.edit.PlaylistManagerUtils
-import com.cyl.musiclake.ui.music.mv.VideoPlayerActivity
+import com.cat.music.ui.deleteSingleMusic
+import com.cat.music.ui.music.edit.EditMusicActivity
+import com.cat.music.ui.music.edit.PlaylistManagerUtils
+import com.cat.music.ui.music.mv.VideoPlayerActivity
 import com.cat.music.utils.ConvertUtils
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.ToastUtils
-import com.cyl.musiclake.utils.Tools
+import com.cat.music.utils.Tools
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import org.jetbrains.anko.support.v4.startActivity
 
@@ -193,7 +193,7 @@ class BottomDialogFragment : BaseBottomSheetDialogFragment() {
                 itemData.clear()
             }
             //是否显示下载歌曲Item
-            if (!_root_ide_package_.com.cat.musiclake.BuildConfig.HAS_DOWNLOAD || type == Constants.PLAYLIST_DOWNLOAD_ID) {
+            if (!BuildConfig.HAS_DOWNLOAD || type == Constants.PLAYLIST_DOWNLOAD_ID) {
                 itemData.remove(R.string.popup_download)
             }
             //是否有mv

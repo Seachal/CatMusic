@@ -14,7 +14,7 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseLazyFragment;
 import com.cat.music.common.Constants;
 import com.cat.music.ui.main.PageAdapter;

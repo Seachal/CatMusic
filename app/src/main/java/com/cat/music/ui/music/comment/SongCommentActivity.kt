@@ -2,12 +2,12 @@ package com.cat.music.ui.music.comment
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.cyl.musicapi.bean.SongComment
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicApi
+import com.cat.music.R
+import com.cat.music.api.music.MusicApi
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.common.Extras
 import kotlinx.android.synthetic.main.activity_song_comment.*
 

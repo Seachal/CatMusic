@@ -1,6 +1,6 @@
 package com.cat.music.event
 
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.bean.Playlist
 import com.cat.music.common.Constants
 
 /**

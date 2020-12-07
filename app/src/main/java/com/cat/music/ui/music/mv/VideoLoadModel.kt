@@ -1,12 +1,12 @@
 package com.cat.music.ui.music.mv
 
 import com.cyl.musicapi.netease.*
-import com.cyl.musiclake.api.music.baidu.BaiduApiServiceImpl
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
-import com.cyl.musiclake.bean.MvInfoBean
+import com.cat.music.api.music.baidu.BaiduApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.bean.MvInfoBean
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.bean.VideoInfoBean
+import com.cat.music.bean.VideoInfoBean
 import io.reactivex.Observable
 
 /**

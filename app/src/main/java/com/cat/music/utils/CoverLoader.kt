@@ -8,12 +8,11 @@ import android.net.Uri
 import android.widget.ImageView
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.target.CustomTarget
-import com.bumptech.glide.request.target.SimpleTarget
 import com.bumptech.glide.request.transition.Transition
-import com.cyl.musiclake.R
-import com.cat.musiclake.api.GlideApp
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.api.GlideApp
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.bean.Music
 
 
 /**
@@ -85,7 +84,7 @@ object CoverLoader {
         if (music == null) return
         if (mContext == null) return
         val url = MusicUtils.getAlbumPic(music.coverUri, music.type, MusicUtils.PIC_SIZE_BIG)
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .asBitmap()
                 .load(url ?: R.drawable.default_cover_place)
                 .error(coverUriByRandom)
@@ -106,7 +105,7 @@ object CoverLoader {
     fun loadBigImageView(mContext: Context, music: Music?, imageView: ImageView?) {
         if (music == null || imageView == null) return
         val url = getCoverUriByMusic(music, true)
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .asBitmap()
                 .load(url ?: R.drawable.default_cover_place)
                 .error(coverUriByRandom)
@@ -117,7 +116,7 @@ object CoverLoader {
     fun loadBigImageView(mContext: Context, url: String?, vendor: String?, imageView: ImageView?) {
         if (imageView == null) return
         val newUrl = MusicUtils.getAlbumPic(url, vendor, MusicUtils.PIC_SIZE_BIG)
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .asBitmap()
                 .load(newUrl)
                 .error(coverUriByRandom)
@@ -135,7 +134,7 @@ object CoverLoader {
     fun loadImageView(mContext: Context?, url: String?, imageView: ImageView?) {
         if (mContext == null) return
         if (imageView == null) return
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .load(url)
                 .placeholder(R.drawable.default_cover_place)
                 .error(R.drawable.default_cover_place)
@@ -146,7 +145,7 @@ object CoverLoader {
 
     fun loadImageView(mContext: Context?, url: String?, defaultUrl: Int, imageView: ImageView) {
         if (mContext == null) return
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .load(url)
                 .placeholder(defaultUrl)
                 .error(defaultUrl)
@@ -175,7 +174,7 @@ object CoverLoader {
      */
     fun loadBitmap(mContext: Context?, url: String?, callBack: ((Bitmap) -> Unit)?) {
         if (mContext == null) return
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .asBitmap()
                 .load(url ?: coverUriByRandom)
                 .error(coverUriByRandom)
@@ -200,7 +199,7 @@ object CoverLoader {
      */
     fun loadDrawable(mContext: Context?, url: String?, callBack: ((Drawable) -> Unit)?) {
         if (mContext == null) return
-        _root_ide_package_.com.cat.musiclake.api.GlideApp.with(mContext)
+        GlideApp.with(mContext)
                 .asBitmap()
                 .load(url ?: coverUriByRandom)
                 .error(coverUriByRandom)

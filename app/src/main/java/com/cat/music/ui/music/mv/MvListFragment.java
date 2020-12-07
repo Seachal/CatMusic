@@ -12,7 +12,7 @@ import com.cat.music.ui.base.BaseLazyFragment;
 import com.cat.music.common.Extras;
 import com.cat.music.ui.base.BaseLazyFragment;
 import com.cyl.musicapi.netease.MvInfoDetail;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseLazyFragment;
 import com.cat.music.common.Extras;
 

@@ -8,10 +8,10 @@ import android.view.View
 import android.view.WindowManager
 import android.widget.*
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.R
+import com.cat.music.common.NavigationHelper
 import com.cat.music.player.MusicPlayerService
-import com.cyl.musiclake.player.UnLockNotify
+import com.cat.music.player.UnLockNotify
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SPUtils
 import com.cat.music.utils.ToastUtils

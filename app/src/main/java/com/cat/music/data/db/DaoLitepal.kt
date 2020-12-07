@@ -1,8 +1,8 @@
 package com.cat.music.data.db
 
-import com.cyl.musiclake.bean.*
+import com.cat.music.bean.*
 import com.cat.music.common.Constants
-import com.cyl.musiclake.ui.download.TasksManagerModel
+import com.cat.music.ui.download.TasksManagerModel
 import com.cat.music.utils.FileUtils
 import org.litepal.LitePal
 

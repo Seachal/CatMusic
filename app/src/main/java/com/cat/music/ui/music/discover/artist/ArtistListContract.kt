@@ -2,7 +2,7 @@ package com.cat.music.ui.music.discover.artist
 
 import com.cyl.musicapi.bean.SingerTag
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.Artist
+import com.cat.music.bean.Artist
 
 
 interface ArtistListContract {

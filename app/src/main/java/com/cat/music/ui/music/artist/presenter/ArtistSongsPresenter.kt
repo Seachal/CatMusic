@@ -1,7 +1,7 @@
 package com.cat.music.ui.music.artist.presenter
 
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.ui.music.artist.contract.ArtistSongContract
+import com.cat.music.ui.music.artist.contract.ArtistSongContract
 import javax.inject.Inject
 
 

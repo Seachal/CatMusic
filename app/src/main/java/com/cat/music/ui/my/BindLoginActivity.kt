@@ -3,10 +3,10 @@ package com.cat.music.ui.my
 import android.content.Intent
 import android.view.View
 import com.cyl.musicapi.netease.LoginInfo
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.common.Constants
 import com.cat.music.ui.base.BaseActivity
-import com.cyl.musiclake.ui.my.user.User
+import com.cat.music.ui.my.user.User
 import com.cat.music.utils.SPUtils
 import com.cat.music.utils.ToastUtils
 import kotlinx.android.synthetic.main.activity_bind_login.*

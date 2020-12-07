@@ -9,10 +9,10 @@ import android.view.*
 import android.widget.ImageView
 import com.cyl.musicapi.netease.CatListBean
 import com.cyl.musicapi.netease.SubItem
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.ui.music.playlist.PlaylistActivity
+import com.cat.music.ui.music.playlist.PlaylistActivity
 import com.cat.music.ui.widget.channel.Channel
 import com.cat.music.ui.widget.channel.ChannelView
 import com.cat.music.utils.LogUtil
@@ -27,7 +27,7 @@ import org.jetbrains.anko.support.v4.startActivity
  */
 class AllPlaylistCatFragment : androidx.fragment.app.DialogFragment(), ChannelView.OnChannelListener {
     private var rootView: View? = null
-    private val backIv by lazy { rootView?.findViewById<ImageView>(com.cyl.musiclake.R.id.backIv) }
+    private val backIv by lazy { rootView?.findViewById<ImageView>(com.cat.music.R.id.backIv) }
     private val TAG = javaClass.simpleName
 
     var isHighQuality: Boolean = false
@@ -45,7 +45,7 @@ class AllPlaylistCatFragment : androidx.fragment.app.DialogFragment(), ChannelVi
             val lp = it.window?.attributes
             lp?.width = WindowManager.LayoutParams.MATCH_PARENT
             lp?.height = WindowManager.LayoutParams.MATCH_PARENT
-            lp?.windowAnimations = com.cyl.musiclake.R.style.dialogAnim
+            lp?.windowAnimations = com.cat.music.R.style.dialogAnim
             lp?.gravity = Gravity.BOTTOM
             it.window?.attributes = lp
             it.setCanceledOnTouchOutside(true)
@@ -55,7 +55,7 @@ class AllPlaylistCatFragment : androidx.fragment.app.DialogFragment(), ChannelVi
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         if (rootView == null) {
-            rootView = inflater.inflate(com.cyl.musiclake.R.layout.frag_playlist_category, container, false)
+            rootView = inflater.inflate(com.cat.music.R.layout.frag_playlist_category, container, false)
         }
         dialog?.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         return rootView

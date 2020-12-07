@@ -5,15 +5,15 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Pair
 import android.view.View
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.common.NavigationHelper
+import com.cat.music.R
+import com.cat.music.bean.Music
+import com.cat.music.bean.Playlist
+import com.cat.music.common.NavigationHelper
 import com.cat.music.ui.base.BaseFragment
 import com.cat.music.ui.base.BaseLazyFragment
 import com.cat.music.ui.music.charts.PlaylistContract
-import com.cyl.musiclake.ui.music.charts.PlaylistPresenter
-import com.cyl.musiclake.ui.music.discover.TopPlaylistAdapter
+import com.cat.music.ui.music.charts.PlaylistPresenter
+import com.cat.music.ui.music.discover.TopPlaylistAdapter
 import kotlinx.android.synthetic.main.fragment_recyclerview_notoolbar.*
 
 /**

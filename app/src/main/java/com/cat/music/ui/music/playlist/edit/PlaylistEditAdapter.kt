@@ -3,8 +3,8 @@ package com.cat.music.ui.music.playlist.edit
 import android.widget.CheckBox
 import com.chad.library.adapter.base.BaseItemDraggableAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Playlist
+import com.cat.music.R
+import com.cat.music.bean.Playlist
 import com.cat.music.utils.ConvertUtils
 
 /**

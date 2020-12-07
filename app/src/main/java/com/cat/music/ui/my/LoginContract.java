@@ -7,7 +7,7 @@ import com.cat.music.ui.base.BaseContract;
 import com.cat.music.ui.base.BaseContract;
 import com.cyl.musicapi.netease.LoginInfo;
 import com.cat.music.ui.base.BaseContract;
-import com.cyl.musiclake.ui.my.user.User;
+import com.cat.music.ui.my.user.User;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
 package com.cat.music.ui.music.artist.contract
 
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.ui.base.BaseContract
 
 interface ArtistSongContract {

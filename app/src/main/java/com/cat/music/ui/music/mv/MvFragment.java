@@ -10,7 +10,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import androidx.viewpager.widget.ViewPager;
 
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.ui.base.BaseFragment;
 import com.cat.music.ui.base.BasePresenter;
 import com.cat.music.ui.main.PageAdapter;

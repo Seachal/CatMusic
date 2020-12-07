@@ -74,7 +74,7 @@
             android:textSize="@dimen/sp_16"
             android:textStyle="normal" />
 
-        <com.cyl.musiclake.ui.widget.CountDownTimerTextView
+        <com.cat.music.ui.widget.CountDownTimerTextView
             android:id="@+id/sleepTimeShiWuTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
             android:textSize="@dimen/sp_16"
             android:textStyle="normal" />
 
-        <com.cyl.musiclake.ui.widget.CountDownTimerTextView
+        <com.cat.music.ui.widget.CountDownTimerTextView
             android:id="@+id/sleepTimeSanShiTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
             android:textSize="@dimen/sp_16"
             android:textStyle="normal" />
 
-        <com.cyl.musiclake.ui.widget.CountDownTimerTextView
+        <com.cat.music.ui.widget.CountDownTimerTextView
             android:id="@+id/sleepTimeSiWuTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -209,7 +209,7 @@
             android:textSize="@dimen/sp_16"
             android:textStyle="normal" />
 
-        <com.cyl.musiclake.ui.widget.CountDownTimerTextView
+        <com.cat.music.ui.widget.CountDownTimerTextView
             android:id="@+id/sleepTimeLiuShiTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -254,7 +254,7 @@
             android:textSize="@dimen/sp_16"
             android:textStyle="normal" />
 
-        <com.cyl.musiclake.ui.widget.CountDownTimerTextView
+        <com.cat.music.ui.widget.CountDownTimerTextView
             android:id="@+id/sleepTimeCustomTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -1,6 +1,6 @@
 package com.cat.music.utils
 
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import org.jaudiotagger.audio.exceptions.InvalidAudioFrameException
 import org.jaudiotagger.audio.exceptions.ReadOnlyFileException
 import org.jaudiotagger.audio.mp3.MP3File

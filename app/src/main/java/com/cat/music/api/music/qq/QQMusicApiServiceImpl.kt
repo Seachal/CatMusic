@@ -4,7 +4,7 @@ import com.cyl.musicapi.bean.Artists
 import com.cyl.musicapi.qq.QQApiService
 import com.cat.music.MusicApp
 import com.cat.music.api.net.ApiManager
-import com.cyl.musiclake.bean.Artist
+import com.cat.music.bean.Artist
 import com.cat.music.common.Constants
 import com.cat.music.utils.LogUtil
 import com.google.gson.annotations.SerializedName

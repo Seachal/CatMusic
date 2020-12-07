@@ -2,9 +2,9 @@ package com.cat.music.ui.music.search
 
 
 import com.cat.music.ui.base.BaseContract
-import com.cyl.musiclake.bean.HotSearchBean
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.SearchHistoryBean
+import com.cat.music.bean.HotSearchBean
+import com.cat.music.bean.Music
+import com.cat.music.bean.SearchHistoryBean
 
 interface SearchContract {
 

@@ -1,10 +1,10 @@
 package com.cat.music.api.music.netease
 
 import com.cyl.musicapi.netease.*
-import com.cyl.musiclake.api.music.MusicUtils
+import com.cat.music.api.music.MusicUtils
 import com.cat.music.api.net.ApiManager
-import com.cyl.musiclake.bean.*
-import com.cyl.musiclake.bean.Artist
+import com.cat.music.bean.*
+import com.cat.music.bean.Artist
 import com.cat.music.common.Constants
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SPUtils

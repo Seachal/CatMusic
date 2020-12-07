@@ -5,22 +5,22 @@ import android.os.Bundle
 import com.google.android.material.tabs.TabLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.view.View
-import com.cat.musiclake.BuildConfig
+import com.cat.music.BuildConfig
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.bean.NoticeInfo
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.data.PlaylistLoader
+import com.cat.music.R
+import com.cat.music.bean.Music
+import com.cat.music.bean.NoticeInfo
+import com.cat.music.bean.Playlist
+import com.cat.music.data.PlaylistLoader
 import com.cat.music.common.Constants
 import com.cat.music.common.Extras
-import com.cyl.musiclake.common.NavigationHelper
-import com.cyl.musiclake.event.*
+import com.cat.music.common.NavigationHelper
+import com.cat.music.event.*
 import com.cat.music.player.PlayManager
 import com.cat.music.ui.base.BaseFragment
-import com.cyl.musiclake.ui.music.dialog.CreatePlaylistDialog
-import com.cyl.musiclake.ui.music.edit.PlaylistManagerUtils
-import com.cyl.musiclake.ui.music.playlist.PlaylistAdapter
+import com.cat.music.ui.music.dialog.CreatePlaylistDialog
+import com.cat.music.ui.music.edit.PlaylistManagerUtils
+import com.cat.music.ui.music.playlist.PlaylistAdapter
 import com.cat.music.ui.music.playlist.edit.PlaylistManagerActivity
 import com.cat.music.ui.my.user.UserStatus
 import com.cat.music.utils.LogUtil
@@ -66,7 +66,7 @@ class MyMusicFragment : BaseFragment<MyMusicPresenter>(), MyMusicContract.View {
 
     public override fun initViews() {
         //初始化下载 Item
-        downloadView.visibility = if (_root_ide_package_.com.cat.musiclake.BuildConfig.HAS_DOWNLOAD) View.VISIBLE else View.GONE
+        downloadView.visibility = if (BuildConfig.HAS_DOWNLOAD) View.VISIBLE else View.GONE
 
         //初始化歌单列表
         val linearLayoutManager = LinearLayoutManager(context)
@@ -121,7 +121,7 @@ class MyMusicFragment : BaseFragment<MyMusicPresenter>(), MyMusicContract.View {
                 }
             }
             if (playlistTag == Constants.PLAYLIST_CUSTOM_ID && !UserStatus.getLoginStatus()) {
-                ToastUtils.show(getString(com.cyl.musiclake.R.string.prompt_login))
+                ToastUtils.show(getString(com.cat.music.R.string.prompt_login))
             } else {
                 dialog.show(childFragmentManager, TAG_CREATE)
             }

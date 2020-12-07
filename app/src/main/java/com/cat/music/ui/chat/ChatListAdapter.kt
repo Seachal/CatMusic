@@ -5,16 +5,16 @@ import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.cyl.musicapi.playlist.MusicInfo
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.api.music.MusicUtils
-import com.cyl.musiclake.bean.MessageInfoBean
-import com.cyl.musiclake.bean.UserInfoBean
+import com.cat.music.R
+import com.cat.music.api.music.MusicUtils
+import com.cat.music.bean.MessageInfoBean
+import com.cat.music.bean.UserInfoBean
 import com.cat.music.common.Constants
 import com.cat.music.player.PlayManager
-import com.cyl.musiclake.socket.SocketManager
-import com.cyl.musiclake.ui.music.dialog.BottomDialogFragment
+import com.cat.music.socket.SocketManager
+import com.cat.music.ui.music.dialog.BottomDialogFragment
 import com.cat.music.utils.ConvertUtils
-import com.cyl.musiclake.utils.CoverLoader
+import com.cat.music.utils.CoverLoader
 
 /**
  * 作者：yonglong on 2016/8/10 21:36

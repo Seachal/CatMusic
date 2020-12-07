@@ -1,14 +1,14 @@
 package com.cat.music.ui.music.edit
 
 import com.afollestad.materialdialogs.MaterialDialog
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
-import com.cyl.musiclake.data.db.DaoLitepal
+import com.cat.music.R
+import com.cat.music.bean.Music
+import com.cat.music.data.db.DaoLitepal
 import com.cat.music.common.Extras
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.utils.Mp3Util
+import com.cat.music.utils.Mp3Util
 import com.cat.music.utils.ToastUtils
 import kotlinx.android.synthetic.main.activity_music_edit.*
 

@@ -2,10 +2,8 @@ package com.cat.music.player;
 
 import android.os.RemoteException;
 
+import com.cat.music.IMusicService;
 import com.cat.music.bean.Music;
-import com.cat.musiclake.bean.Music;
-import com.cat.musiclake.IMusicService;
-import com.cyl.musiclake.bean.Music;
 
 import java.lang.ref.WeakReference;
 import java.util.List;

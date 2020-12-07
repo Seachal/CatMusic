@@ -97,8 +97,8 @@
 -keep class * extends org.litepal.crud.LitePalSupport {
     *;
 }
--dontwarn com.cyl.musiclake.api.music.doupan.DoubanMusic.**
--keep class com.cyl.musiclake.api.music.doupan.DoubanMusic {
+-dontwarn com.cat.music.api.music.doupan.DoubanMusic.**
+-keep class com.cat.music.api.music.doupan.DoubanMusic {
     *;
 }
 

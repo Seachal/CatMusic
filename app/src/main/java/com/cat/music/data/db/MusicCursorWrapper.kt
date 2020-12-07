@@ -3,8 +3,8 @@ package com.cat.music.data.db
 import android.database.Cursor
 import android.database.CursorWrapper
 
-import com.cyl.musiclake.bean.Album
-import com.cyl.musiclake.bean.Artist
+import com.cat.music.bean.Album
+import com.cat.music.bean.Artist
 
 class MusicCursorWrapper(cursor: Cursor) : CursorWrapper(cursor) {
     

@@ -4,9 +4,9 @@ import android.widget.ImageView
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
 import com.cyl.musicapi.bean.NeteaseComment
-import com.cyl.musiclake.R
-import com.cyl.musiclake.utils.CoverLoader
-import com.cyl.musiclake.utils.FormatUtil
+import com.cat.music.R
+import com.cat.music.utils.CoverLoader
+import com.cat.music.utils.FormatUtil
 
 /**
  * 作者：yonglong on 2016/8/10 21:36

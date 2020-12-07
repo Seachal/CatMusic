@@ -38,7 +38,7 @@ import com.cat.music.player.FloatLyricViewManager;
 import com.cat.music.ui.widget.lyric.LyricInfo;
 import com.cat.music.ui.widget.lyric.LyricParseUtils;
 import com.cat.music.utils.LogUtil;
-import com.cyl.musiclake.R;
+import com.cat.music.R;
 import com.cat.music.player.FloatLyricViewManager;
 import com.cat.music.utils.LogUtil;
 import com.cat.music.ui.widget.lyric.LyricInfo;

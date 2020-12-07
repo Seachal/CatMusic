@@ -1,16 +1,16 @@
 package com.cat.music.ui.music.my
 
-import com.cyl.musiclake.api.music.netease.NeteaseApiServiceImpl
+import com.cat.music.api.music.netease.NeteaseApiServiceImpl
 import com.cat.music.api.net.ApiManager
 import com.cat.music.api.net.RequestCallBack
-import com.cyl.musiclake.bean.Playlist
-import com.cyl.musiclake.data.PlayHistoryLoader
-import com.cyl.musiclake.data.PlaylistLoader
-import com.cyl.musiclake.data.SongLoader
-import com.cyl.musiclake.data.VideoLoader
-import com.cyl.musiclake.ui.music.edit.PlaylistManagerUtils
+import com.cat.music.bean.Playlist
+import com.cat.music.data.PlayHistoryLoader
+import com.cat.music.data.PlaylistLoader
+import com.cat.music.data.SongLoader
+import com.cat.music.data.VideoLoader
+import com.cat.music.ui.music.edit.PlaylistManagerUtils
 import com.cat.music.ui.base.BasePresenter
-import com.cyl.musiclake.ui.download.DownloadLoader
+import com.cat.music.ui.download.DownloadLoader
 import com.cat.music.ui.my.user.UserStatus
 import com.cat.music.utils.LogUtil
 import com.cat.music.utils.SPUtils

@@ -6,7 +6,7 @@ import com.cat.music.utils.SPUtils;
 
 /**
  * 作者：yonglong
- * 包名：com.cyl.musiclake.ui.theme
+ * 包名：com.cat.music.ui.theme
  * 时间：2019/4/9 13:28
  * 描述：
  */

@@ -2,7 +2,7 @@ package com.cat.music.ui.settings
 
 import android.content.Intent
 import android.view.MenuItem
-import com.cyl.musiclake.R
+import com.cat.music.R
 import com.cat.music.ui.base.BaseActivity
 import com.cat.music.ui.base.BaseContract
 

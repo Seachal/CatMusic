@@ -6,10 +6,10 @@ import android.content.Intent
 import android.net.Uri
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import com.cat.musiclake.BuildConfig
+import com.cat.music.BuildConfig
 import com.cat.music.MusicApp
-import com.cyl.musiclake.R
-import com.cyl.musiclake.bean.Music
+import com.cat.music.R
+import com.cat.music.bean.Music
 
 
 /**
@@ -27,7 +27,7 @@ object Tools {
         val intent = Intent(Intent.ACTION_SENDTO)
         intent.data = Uri.parse("mailto:caiyonglong@live.com")
         intent.putExtra(Intent.EXTRA_SUBJECT, "用户反馈")
-        val content = context?.resources?.getString(R.string.feedback_content, android.os.Build.VERSION.RELEASE, android.os.Build.BRAND, android.os.Build.MODEL, "${_root_ide_package_.com.cat.musiclake.BuildConfig.VERSION_CODE}-v${_root_ide_package_.com.cat.musiclake.BuildConfig.VERSION_NAME}")
+        val content = context?.resources?.getString(R.string.feedback_content, android.os.Build.VERSION.RELEASE, android.os.Build.BRAND, android.os.Build.MODEL, "${BuildConfig.VERSION_CODE}-v${BuildConfig.VERSION_NAME}")
         intent.putExtra(Intent.EXTRA_TEXT, content)
         context?.startActivity(Intent.createChooser(intent,
                 context.getString(R.string.about_feedback)))

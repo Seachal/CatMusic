@@ -1,9 +1,7 @@
 package com.cat.music.api.net;
 
 import com.cat.music.ui.my.user.User;
-import com.cat.musiclake.ui.my.user.User;
 import com.cat.music.api.ApiModel;
-import com.cyl.musiclake.ui.my.user.User;
 
 import java.util.Map;
 

@@ -1,8 +1,8 @@
 package com.cat.music.data
 
 import com.cat.music.common.Constants
-import com.cyl.musiclake.data.db.DaoLitepal
-import com.cyl.musiclake.bean.Music
+import com.cat.music.data.db.DaoLitepal
+import com.cat.music.bean.Music
 
 /**
  * 作者：yonglong on 2016/11/4 22:30

@@ -2,7 +2,7 @@ package com.cat.music.ui.music.playpage
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
-import com.cyl.musiclake.bean.Music
+import com.cat.music.bean.Music
 import com.cat.music.ui.base.BaseContract
 
 
