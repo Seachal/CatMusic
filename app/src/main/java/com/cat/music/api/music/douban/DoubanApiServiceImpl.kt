@@ -1,4 +1,4 @@
-package com.cat.music.api.music.doupan
+package com.cat.music.api.music.douban
 
 import com.cat.music.api.net.ApiManager
 import io.reactivex.Observable

@@ -1,4 +1,4 @@
-package com.cat.music.api.music.doupan
+package com.cat.music.api.music.douban
 
 import io.reactivex.Observable
 import retrofit2.http.GET

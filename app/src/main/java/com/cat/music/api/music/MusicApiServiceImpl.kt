@@ -5,7 +5,7 @@ import com.cyl.musicapi.BaseApiImpl
 import com.cyl.musicapi.bean.*
 import com.cat.music.MusicApp
 import com.cat.music.R
-import com.cat.music.api.music.doupan.DoubanApiServiceImpl
+import com.cat.music.api.music.douban.DoubanApiServiceImpl
 import com.cat.music.api.music.qq.QQMusicApiServiceImpl
 import com.cat.music.bean.Album
 import com.cat.music.bean.Artist

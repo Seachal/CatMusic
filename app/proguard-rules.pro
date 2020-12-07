@@ -98,7 +98,7 @@
     *;
 }
 -dontwarn com.cat.music.api.music.doupan.DoubanMusic.**
--keep class com.cat.music.api.music.doupan.DoubanMusic {
+-keep class com.cat.music.api.music.douban.DoubanMusic {
     *;
 }
 

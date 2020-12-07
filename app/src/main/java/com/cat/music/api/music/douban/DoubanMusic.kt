@@ -1,4 +1,4 @@
-package com.cat.music.api.music.doupan
+package com.cat.music.api.music.douban
 
 import com.google.gson.annotations.SerializedName
 
