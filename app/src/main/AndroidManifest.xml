@@ -73,6 +73,10 @@
             android:launchMode="singleTask"
             android:theme="@style/MainActivityTheme" />
         <activity
+            android:name=".ui.web.WebAppActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/MainActivityTheme" />
+        <activity
             android:name=".ui.my.LoginActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">

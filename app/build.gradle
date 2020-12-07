@@ -186,4 +186,7 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:1.0.0"
 
     implementation "androidx.preference:preference:1.1.1"
+
+    // https://github.com/lzyzsd/JsBridge  jsBridge桥
+    implementation 'com.github.lzyzsd:jsbridge:1.0.4'
 }
