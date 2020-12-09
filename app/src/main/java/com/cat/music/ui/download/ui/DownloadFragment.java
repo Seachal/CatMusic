@@ -94,6 +94,8 @@ public class DownloadFragment extends BaseLazyFragment {
                         AppCompatActivity activity = (AppCompatActivity) getActivity();
                         Music music = new Music();
                         music.setUri(url);
+                        music.setArtist("liangchaojie");
+                        music.setTitle("title");
                         music.setType(Constants.NETEASE);
                         music.setMid(new Date().getTime()+"");
                         music.setId(new Date().getTime());
